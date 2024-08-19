@@ -1,0 +1,39 @@
+/* reset the project */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  width: 45%;
+  padding: 8px;
+  background-color: #ff5983;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 50;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #ff5983;
+  color: #fff;
+}
